@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: font1;
+    src: url(../assets/fontes/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(../assets/fontes/idroid.otf);
+}
+
+img{
+    width: 100%; 
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+iframe{
+    width: calc(100% + 20px); 
+    margin-left: -10px;
+    display: block;
+}
+header{
+    background: linear-gradient(#13faa1, rgb(3, 44, 3));
+    text-align: center;
+    font-family: font1;
+    padding: 1px;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: white;
+    padding: 0px 10px ;
+    margin: 0;
+    
+}
+body{
+    margin: 0;
+    background-color: #7dffbe;
+}
+main{
+    padding: 10px;
+    margin: auto;
+    max-width: 70%;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    
+
+}
+h1{
+    font-family: font2;
+    font-size: 25px;
+    color: rgb(1, 87, 1);
+}
+h2{
+    font-family: font2;
+    font-size: 20px;
+    color: rgb(1, 87, 1);
+    background: linear-gradient( 90deg,#7dffbe, white);
+
+}
+p{
+    text-align: justify;
+    font-family: Calibri, 'Trebuchet MS', sans-serif
+}
+p > b{
+    color: green;
+}
+a{
+    text-decoration: none;
+    font-family: font1;
+    font-size: 10px;
+    color: white;
+}
+a:visited{
+    color: white;
+}
+h1{
+    margin: 0;
+}
+.colunas{
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha */
+    gap: 10px; /* Espaçamento entre colunas/linhas */
+    
+}
+.colunas li{
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+    color: black;
+    list-style: "✔️";
+    list-style-position: inside;
+}
+div{
+    background-color: rgb(170, 218, 250);
+    border-radius: 5px;
+}
+div h2{
+    background: green;
+    font-family: font1;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    font-family: font1;
+    margin-top: 10px;
+    font-size: 10px;
+}
