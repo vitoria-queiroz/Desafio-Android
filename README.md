@@ -1,8 +1,7 @@
 # 🚀 Desafio Android
 > Landing page da história do mascote do Android focado em responsividade. Desafio proposto pelo Professor Guanabara pelo Curso Em Vídeo.
 
-![Preview do Projeto]
-(assetis/imgagens/site-exemplo.png)
+[Preview do Projeto](assets/imagens/site-exemplo.png)
 
 ## 💻 Funcionalidades
 - [x] Design Responsivo
