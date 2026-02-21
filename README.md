@@ -2,7 +2,7 @@
 > Landing page da história do mascote do Android focado em responsividade. Desafio proposto pelo Professor Guanabara pelo Curso Em Vídeo.
 
 ![Preview do Projeto]
-(assetis/imgagens/site-exemplo.png)
+C:\Users\thiag\OneDrive\Documentos\Estudo\HTML e CSS\desafios\d010\site-exemplo.png
 
 ## 💻 Funcionalidades
 - [x] Design Responsivo
